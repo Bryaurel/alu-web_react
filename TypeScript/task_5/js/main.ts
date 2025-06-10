@@ -24,7 +24,7 @@ function sumMajorCredits(
 function sumMinorCredits(
     subject1: MinorCredits,
     subject2: MinorCredits
-): MinorCredits {
+3): MinorCredits {
     const sum = subject1.credit + subject2.credit;
     const obj: MinorCredits = {
       credit: sum,
